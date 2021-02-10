@@ -22,3 +22,12 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 58ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 3580)
 
 
+Started GET "/" for 127.0.0.1 at 2021-02-10 22:38:15 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/user/gems/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/user/gems/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.9ms | Allocations: 330)
+Completed 200 OK in 46ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 2447)
+
+
